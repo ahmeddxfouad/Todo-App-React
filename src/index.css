@@ -1,0 +1,33 @@
+/* Input container */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adds space between input and button */
+  margin-top: 20px; /* Optional spacing from the top */
+}
+
+/* Input field */
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 1;
+  max-width: 500px; /* Optional: Limit the width of the input */
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* Add button */
+.add {
+  border: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
